@@ -1,10 +1,17 @@
 import './App.css'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Login from "./components/Login"
+
 
 function App() {
- 
-
-  return (
-    <h1>hello this is react</h1>
+   return (
+   <Router>
+    <Routes>
+      <Route exact path='/'>
+        <Login />
+      </Route>
+    </Routes>
+   </Router>
   )
 }
 
