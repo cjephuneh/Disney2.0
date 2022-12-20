@@ -1,3 +1,4 @@
+import firebase from "firebase"
 
 const firebaseConfig = {
     apiKey: "AIzaSyDbPKjLNWMvnsYxo7uK8MSw9tDl5j6a3_Q",
@@ -8,6 +9,7 @@ const firebaseConfig = {
     appId: "1:364485567897:web:11a89e7585bfcc5dc8df08",
     measurementId: "G-ZTVFVZHZ2M"
   };
+
 
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
